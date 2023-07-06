@@ -1,0 +1,75 @@
+.download{
+    display: flex;
+padding: 96px 0;
+justify-content: center;
+align-items: center;
+background-color: $color-btn;
+}
+.app1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 32px;
+    h2{
+        text-align: center;
+        font-size: 48px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 120%;
+       color: $dowload;
+    }
+    .txt{
+        font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 120%;
+text-align: center;
+max-width: 586px;
+color: $dowload;
+    }
+}
+.input{
+    display: flex;
+align-items: center;
+gap: 10px;
+width: 684px;
+    input{
+        padding: 16px;
+       width: 495px;
+       font-size: 16px;
+       border-radius: 4px;
+font-style: normal;
+font-weight: 400;
+line-height: 155%;
+letter-spacing: 0.32px;
+    background-color: $dowload;
+   
+    }
+    button{
+        display: flex;
+height: 56px;
+padding: 16px 28px;
+justify-content: center;
+align-items: center;
+gap: 10px;
+background-color: $color-h;
+border-radius: 10px;
+font-size: 16px;
+color: $dowload;
+font-style: normal;
+font-weight: 400;
+line-height: 155%;
+letter-spacing: 0.32px;
+text-align: center;
+    }
+    
+}
+.agree{
+    font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 120%;
+color: $dowload;
+width: 684px;
+margin-bottom: 21px;
+}

@@ -1,0 +1,48 @@
+footer{
+   background-color: $footer;
+   color: $color-white;
+   padding: 112px 0;
+
+}
+.footer-top{
+    display: flex;
+    justify-content: space-between;
+gap: 40px;
+}
+.term{
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    margin-bottom: 40px;
+    h3{
+        font-size: 20px;
+font-style: normal;
+font-weight: 500;
+line-height: 120%;
+    }
+    a{
+color: $footer-a;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 120%;
+    }
+   
+}
+.footer-span{
+    width: 1302.75px;
+    height: 0.9px;
+    background-color: $footer-span;
+   margin-bottom: 35px;
+}
+.footer-bottom{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    p{
+        font-size: 12.6px;
+font-style: normal;
+font-weight: 400;
+line-height: 19.8px;
+    }
+}

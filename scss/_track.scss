@@ -1,0 +1,55 @@
+.track{
+display: flex;
+padding: 112px 0;
+
+}
+.track-div{
+    display: flex;
+}
+.keep-top{
+    flex-direction: column;
+    h2{
+        max-width: 686px;
+        font-size: 48px;
+font-style: normal;
+font-weight: 700;
+line-height: 120%;
+
+    }
+    p{
+        margin-top: 24px;
+        font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 120%;
+ width: 733px;
+    }
+
+}
+.app{
+    display: flex;
+  
+    margin-top: 40px;
+    .designed{
+       
+       
+        h4{
+            font-size: 20px;
+            font-style: normal;
+font-weight: 700;
+line-height: 140%;
+color: $color-h;
+
+
+        }
+        p{
+            font-size: 18px;
+            font-style: normal;
+font-weight: 400;
+line-height: 120%;
+width: 306px;
+color: $color-p;
+        }
+    }
+
+}

@@ -1,0 +1,59 @@
+.inbox{
+    background-color:$inbox-bacround;
+    padding-top: 57px;
+   
+}
+.mockup{
+    transform: translateX(-80px);
+}
+.inbox-cont{
+    display: flex;
+    align-items: center;
+  justify-content: space-between;
+  
+    color: $color-white;
+    .web{
+        h4{
+            
+            font-size: 32px;
+font-style: normal;
+font-weight: 700;
+line-height: 120%;
+max-width: 546px;
+
+        }
+        p{
+            margin-top: 18px;
+            font-size: 16px;
+font-family: Rubik;
+font-style: normal;
+font-weight: 400;
+line-height: 120%;
+max-width: 549px;
+
+        }
+       
+    }
+
+}
+.bottom{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 36px;
+    .btn{
+        h4{
+            margin-top: 12px;
+            font-size: 18px;
+font-family: Rubik;
+font-style: normal;
+font-weight: 700;
+line-height: 120%;
+        }
+        p{
+            margin-top: 12px;
+            max-width: 265px;
+
+        }
+    }
+}
